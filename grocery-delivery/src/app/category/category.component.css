@@ -1,0 +1,12 @@
+.sidebar{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(0, 0, 39);
+    padding-top: 5%;
+    padding-left: 1%;
+}
+.btn{
+    color: white;
+    font-size: 25px;
+}

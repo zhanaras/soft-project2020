@@ -1,0 +1,5 @@
+<div class="sidebar">
+    <div *ngFor="let c of categories">
+        <button type="button" class="btn btn-link" [routerLink]= "'/categories/' + c.id + '/products'">{{ c.title }}</button>
+    </div>
+</div>
